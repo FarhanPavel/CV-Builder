@@ -11,7 +11,7 @@ public:
     string married_status,nationality,dob;
     string group,board;
     int  passyear;
-    float result;
+    string result;
 
     int sz, line_count = 0, degree_count;
     char line[2000];
