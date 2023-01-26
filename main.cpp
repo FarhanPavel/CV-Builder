@@ -94,7 +94,7 @@ public:
         cout<<"\t\t\t\t Enter "<<name<<" "<<"Pass Year\t\t: ";
         cin>>passyear;
         cout<<"\t\t\t\t Enter "<<name<<" "<<"Grade\t\t: ";
-        cin>>result;
+        getline(cin >> ws, result);
         cout<<"\n";
 
         info_append << name << "," << group << "," << board<<","<<passyear<<","<<result<< "\n";
