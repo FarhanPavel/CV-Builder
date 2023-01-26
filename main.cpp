@@ -93,7 +93,7 @@ public:
         getline(cin >> ws, board);
         cout<<"\t\t\t\t Enter "<<name<<" "<<"Pass Year\t\t: ";
         cin>>passyear;
-        cout<<"\t\t\t\t Enter "<<name<<" "<<"Grade\t\t: ";
+        cout<<"\t\t\t\t Enter "<<name<<" "<<"GPA/CGPA\t\t: ";
         getline(cin >> ws, result);
         cout<<"\n";
 
